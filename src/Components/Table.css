@@ -1,0 +1,25 @@
+table {
+    /* border-collapse: collapse; */
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Apply odd and even row styles */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style the table header */
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 0;
+    text-transform: capitalize;
+}
+
+td {
+    padding: 5px 0;
+}

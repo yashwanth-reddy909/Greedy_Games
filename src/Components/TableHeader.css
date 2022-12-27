@@ -1,0 +1,27 @@
+.table-header {
+    margin-bottom: 2rem;
+}
+
+.fliterbutton {
+    background-color: #e74c3c;
+    box-shadow: 0 0 10px rgba(231, 77, 60, 0.7);
+    margin: 20px 20px;
+    text-align: center;
+    font-size: 15px;
+    cursor: grab;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.fliterbuttondisable {
+    cursor: default;
+}
+
+.fliterbuttonadded {
+    background-color: #27ae60;
+    box-shadow: 0 0 10px rgba(39, 174, 96, 0.7);
+}
